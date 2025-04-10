@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- navigation -->
+    <div class=" hidden md:h-20 md:flex bg-black text-white items-center">
+        <ul class="flex flex-wrap justify-between items-center justify-around w-auto gap-5">
+            <li><a href="./index.html" class="m-5 text-2xl">Taniti</a></li>
+            <li><a href="./restaurants.html">Restaurants</a></li>
+            <li><a href="./grocery.html">Grocery</a></li>
+            <li><a href="./lodging.html">Lodging</a></li>
+            <li><a href="./entertainment.html">Entertainment</a></li>
+            <li><a href="./sightseeing.html">Sightseeing</a></li>
+            <li><a href="./transportation.html">Transportation</a></li>
+        </ul>
+    </div>
+    <div class=" md:hidden md:h-20 md:flex bg-black text-white items-center">
+        <ul class="flex flex-col   w-auto gap-5 p-5">
+            <li><a href="./index.html" class="text-2xl">Taniti</a></li>
+            <li><a href="./restaurants.html">Restaurants</a></li>
+            <li><a href="./grocery.html">Grocery</a></li>
+            <li><a href="./lodging.html">Lodging</a></li>
+            <li><a href="./entertainment.html">Entertainment</a></li>
+            <li><a href="./sightseeing.html">Sightseeing</a></li>
+            <li><a href="./transportation.html">Transportation</a></li>
+        </ul>
+    </div>
+
+    <!-- top image -->
+    <div id="top-image" class="h-[30vh] w-full "></div>
+
+    <div class="m-5 md:m-auto md:w-[600px]">
+        <h1 class="text-4xl text-center my-[100px]">Sightseeing</h1>
+        <div class="flex flex-col my-5">
+
+            <!-- restaurant item -->
+            <a href="./krakatoni.html">
+                <div class="">
+                    <div class="flex ">
+                        <img src="./img/volcano1.jpg" class=" w-[200px] md:h-[200px] object-cover"
+                            alt="people sitting in a movie theater">
+                        <div class="p-5 bg-black w-full text-white">
+                            <p class="title-font font-medium text-2xl">Krakatoni Volcano Hike</p>
+                            <p>
+                                free
+                            </p>
+                            <div class="flex text-yellow-500">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>
+                                If you want a long hike you can walk to the top of the Krakatoni Volcano.
+                                This volcano currently inactive and it is safe to walk there...
+                                <!-- and is extreemly fun.
+                                You can see the entire island as it stands two thousand feet above sea level.
+                                It takes about 2.5 hours to reach the summit so be sure to bring plenty of water. -->
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- restaurant item -->
+            <a href="./taniti-beach.html" class="mt-5">
+                <div class="">
+                    <div class="flex ">
+                        <img src="./img/beach1.jpg" class=" w-[200px] md:h-[200px] object-cover"
+                            alt="bowling balls resting">
+                        <div class="p-5 bg-black w-full text-white">
+                            <p class="title-font font-medium text-2xl">Taniti Beach</p>
+                            <p>
+                                free
+                            </p>
+                            <div class="flex text-yellow-500">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>
+                                Taniti Beach is great for anyone looking to have some fun and swim in the ocean.
+                                With beautiful white sandy beaches and a...
+                                <!-- low number of visitors this beach is a great spot to relax.
+                                Be sure to bring sunscreen or an umbrella. -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- bottom navigation and footer -->
+    <footer class="h-[450px] bg-gray-100 ">
+        <div class="float-left  mt-[100px] ms-[100px]">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 mt-5">COMMON PAGES</h2>
+            <nav class="list-none mb-10 flex flex-col gap-2">
+                <li>
+                    <a href="./restaurants.html" class="text-gray-600 hover:text-gray-800">Restaurants</a>
+                </li>
+                <li>
+                    <a href="./grocery.html" class="text-gray-600 hover:text-gray-800">Grocery</a>
+                </li>
+                <li>
+                    <a href="./lodging.html" class="text-gray-600 hover:text-gray-800">Lodging</a>
+                </li>
+                <li>
+                    <a href="./entertainment.html" class="text-gray-600 hover:text-gray-800">Entertainment</a>
+                </li>
+            </nav>
+        </div>
+        <div class="float-left  mt-[100px] ms-[100px]">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 mt-5">COMMON PAGES</h2>
+            <nav class="list-none mb-10 flex flex-col gap-2">
+                <li>
+                    <a href="./sightseeing.html" class="text-gray-600 hover:text-gray-800">Sightseeing</a>
+                </li>
+                <li>
+                    <a href="./transportation.html" class="text-gray-600 hover:text-gray-800">Transportation</a>
+                </li>
+            </nav>
+        </div>
+        <div class="clear-both md:clear-none md:float-right md:mt-[150px] md:me-[200px]">
+            <h2 class=" text-center md:mt-0 text-3xl">
+                Taniti
+            </h2>
+        </div>
+        <div class="clear-both"></div>
+        <p class="m-2 text-center mt-5">&copy; 2025 Government of Taniti. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

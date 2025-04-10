@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- navigation -->
+    <div class=" hidden md:h-20 md:flex bg-black text-white items-center">
+        <ul class="flex flex-wrap justify-between items-center justify-around w-auto gap-5">
+            <li><a href="./index.html" class="m-5 text-2xl">Taniti</a></li>
+            <li><a href="./restaurants.html">Restaurants</a></li>
+            <li><a href="./grocery.html">Grocery</a></li>
+            <li><a href="./lodging.html">Lodging</a></li>
+            <li><a href="./entertainment.html">Entertainment</a></li>
+            <li><a href="./sightseeing.html">Sightseeing</a></li>
+            <li><a href="./transportation.html">Transportation</a></li>
+        </ul>
+    </div>
+    <div class=" md:hidden md:h-20 md:flex bg-black text-white items-center">
+        <ul class="flex flex-col   w-auto gap-5 p-5">
+            <li><a href="./index.html" class="text-2xl">Taniti</a></li>
+            <li><a href="./restaurants.html">Restaurants</a></li>
+            <li><a href="./grocery.html">Grocery</a></li>
+            <li><a href="./lodging.html">Lodging</a></li>
+            <li><a href="./entertainment.html">Entertainment</a></li>
+            <li><a href="./sightseeing.html">Sightseeing</a></li>
+            <li><a href="./transportation.html">Transportation</a></li>
+        </ul>
+    </div>
+
+    <!-- top image -->
+    <div id="top-image" class="h-[30vh] w-full "></div>
+    <p class="m-5">
+        Restaurants > The Palm
+    </p>
+    <!-- container -->
+    <div class="m-5 md:m-auto md:w-[700px]">
+
+        <!-- title -->
+        <h1 class="text-4xl text-center mt-[100px]">The Palm</h1>
+        <!-- stars -->
+        <div class="mt-2 mb-5 flex justify-center text-yellow-500">
+            <i class="bi bi-star-fill text-2xl"></i>
+            <i class="bi bi-star-fill text-2xl"></i>
+            <i class="bi bi-star-fill text-2xl"></i>
+            <i class="bi bi-star-fill text-2xl"></i>
+            <i class="bi bi-star-fill text-2xl"></i>
+        </div>
+        <!-- info  -->
+        <p>
+            This is a wonderful place to come and eat hamburgers which are delicious. A local favorite is
+            "The Big One".
+            It has a spicy cajun sauce and it leaves your mouth watering and wanting more.
+            The burgers all come with juicy salted fries and dipping sauces.
+            This is a must visit if you love American Food and hamburgers.
+        </p>
+
+        <!-- reviews -->
+        <h2 class="text-2xl text-center mt-[100px] mb-5">
+            Reviews
+        </h2>
+        <div class="flex">
+            <!-- review  -->
+            <div class="w-1/2  p-2">
+                <p class="title-font font-medium text-md text-center">James Calamari</p>
+                <div class="mt-2 mb-5 flex justify-center  text-yellow-500">
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                </div>
+                <p class="text-justify">
+                    This place is awesome!!! I came here with my family after our cruise ship landed on this island.
+                    I got the Double Trouble and I loved it. We made a lot of good memories.
+                </p>
+            </div>
+
+            <div class="w-1/2  p-2 ms-[100px]">
+                <p class="title-font font-medium text-md text-center">John Smitt</p>
+                <div class="mt-2 mb-5 flex justify-center text-yellow-500">
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                </div>
+                <p class="text-justify">
+                    We live here on the island and we love this place.
+                    The waiters always provide exceptional service and the food is great
+                </p>
+            </div>
+        </div>
+
+        <!-- Images -->
+        <h2 class="text-2xl text-center mt-[100px] ">
+            Images
+        </h2>
+        <div class="flex flex-wrap gap-5 justify-center gap-5 my-5">
+            <div class="">
+                <img src="./img/hamburger.jpg" class="rounded w-[200px] h-[200px]  object-cover">
+                <p class=" text-center">The Double Trouble</p>
+            </div>
+            <div class="">
+                <img src="./img/hamburger2.jpg" class="rounded w-[200px] h-[200px]  object-cover">
+                <p class=" text-center">The American</p>
+            </div>
+            <div class="">
+                <img src="./img/restaurant1.jpg" class="rounded w-[200px] h-[200px]  object-cover">
+                <p class=" text-center">Inside The Palm</p>
+            </div>
+        </div>
+    </div>
+    <footer class="h-[450px] bg-gray-100 ">
+        <div class="float-left  mt-[100px] ms-[100px]">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 mt-5">COMMON PAGES</h2>
+            <nav class="list-none mb-10 flex flex-col flex-wrap gap-2">
+                <li>
+                    <a href="./restaurants.html" class="text-gray-600 hover:text-gray-800">Restaurants</a>
+                </li>
+                <li>
+                    <a href="./grocery.html" class="text-gray-600 hover:text-gray-800">Grocery</a>
+                </li>
+                <li>
+                    <a href="./lodging.html" class="text-gray-600 hover:text-gray-800">Lodging</a>
+                </li>
+                <li>
+                    <a href="./entertainment.html" class="text-gray-600 hover:text-gray-800">Entertainment</a>
+                </li>
+            </nav>
+        </div>
+        <div class="float-left  mt-[100px] ms-[100px]">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 mt-5">COMMON PAGES</h2>
+            <nav class="list-none mb-10 flex flex-col gap-2">
+                <li>
+                    <a href="./sightseeing.html" class="text-gray-600 hover:text-gray-800">Sightseeing</a>
+                </li>
+                <li>
+                    <a href="./transportation.html" class="text-gray-600 hover:text-gray-800">Transportation</a>
+                </li>
+            </nav>
+        </div>
+        <div class="clear-both md:clear-none md:float-right md:mt-[150px] md:me-[200px]">
+            <h2 class=" text-center md:mt-0 text-3xl">
+                Taniti
+            </h2>
+        </div>
+        <div class="clear-both"></div>
+        <p class="m-2 text-center mt-5">&copy; 2025 Government of Taniti. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

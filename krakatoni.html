@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- navigation -->
+    <div class=" hidden md:h-20 md:flex bg-black text-white items-center">
+        <ul class="flex flex-wrap justify-between items-center justify-around w-auto gap-5">
+            <li><a href="./index.html" class="m-5 text-2xl">Taniti</a></li>
+            <li><a href="./restaurants.html">Restaurants</a></li>
+            <li><a href="./grocery.html">Grocery</a></li>
+            <li><a href="./lodging.html">Lodging</a></li>
+            <li><a href="./entertainment.html">Entertainment</a></li>
+            <li><a href="./sightseeing.html">Sightseeing</a></li>
+            <li><a href="./transportation.html">Transportation</a></li>
+        </ul>
+    </div>
+    <div class=" md:hidden md:h-20 md:flex bg-black text-white items-center">
+        <ul class="flex flex-col   w-auto gap-5 p-5">
+            <li><a href="./index.html" class="text-2xl">Taniti</a></li>
+            <li><a href="./restaurants.html">Restaurants</a></li>
+            <li><a href="./grocery.html">Grocery</a></li>
+            <li><a href="./lodging.html">Lodging</a></li>
+            <li><a href="./entertainment.html">Entertainment</a></li>
+            <li><a href="./sightseeing.html">Sightseeing</a></li>
+            <li><a href="./transportation.html">Transportation</a></li>
+        </ul>
+    </div>
+
+    <!-- top image -->
+    <div id="top-image" class="h-[30vh] w-full "></div>
+    <p class="m-5">
+        Sightseeing > Krakatoni Volcano Hike
+    </p>
+    <!-- container -->
+    <div class="m-5 md:m-auto md:w-[700px]">
+        <!-- title -->
+        <h1 class="text-4xl text-center mt-[100px]">Krakatoni Volcano Hike</h1>
+        <!-- stars -->
+        <div class="mt-2 mb-5 flex justify-center text-yellow-500">
+            <i class="bi bi-star-fill text-2xl"></i>
+            <i class="bi bi-star-fill text-2xl"></i>
+            <i class="bi bi-star-fill text-2xl"></i>
+            <i class="bi bi-star-fill text-2xl"></i>
+            <i class="bi bi-star-fill text-2xl"></i>
+        </div>
+        <!-- info  -->
+        <p>
+            If you want a long hike you can walk to the top of the Krakatoni Volcano.
+            This volcano currently inactive and it is safe to walk there
+            and is extreemly  fun for all adventurers.
+            You can see the entire island as it stands two thousand feet above sea level.
+            It takes about 2.5 hours to reach the summit so be sure to bring plenty of water.
+        </p>
+
+        <!-- reviews -->
+        <h2 class="text-2xl text-center mt-[100px] mb-5">
+            Reviews
+        </h2>
+        <div class="flex">
+            <!-- review  -->
+            <div class="w-1/2  p-2">
+                <p class="title-font font-medium text-md text-center">Joan Lewis</p>
+                <div class="mt-2 mb-5 flex justify-center  text-yellow-500">
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                </div>
+                <p class="text-justify">
+                   This hike wasn't too tough. I thoug it would be harder. I loved it and would do this again!
+                   If you haven't checked it out you totally should!
+                </p>
+            </div>
+
+            <div class="w-1/2  p-2 ms-[100px]">
+                <p class="title-font font-medium text-md text-center">Pete Johnson</p>
+                <div class="mt-2 mb-5 flex justify-center text-yellow-500">
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                    <i class="bi bi-star-fill text-2xl"></i>
+                </div>
+                <p class="text-justify">
+                    We did this as a family and boy did we have fun. We would do it again in a heartbeat.
+                </p>
+            </div>
+        </div>
+
+        <!-- Images -->
+        <h2 class="text-2xl text-center mt-[100px] ">
+            Images
+        </h2>
+        <div class="flex flex-wrap  justify-center gap-2 my-5">
+            <div class="">
+                <img src="./img/volcano1.jpg" class="rounded w-[200px] h-[200px]  object-cover"
+                    alt="a volcano covered in green">
+                <p class=" text-center">Volcano</p>
+            </div>
+            <div class="">
+                <img src="./img/volcano2.jpg" class="rounded w-[200px] h-[200px]  object-cover"
+                    alt="Inside the Volcano">
+                <p class=" text-center">Inside the volcano</p>
+            </div>
+            <div class="">
+                <img src="./img/volcano3.jpg" class="rounded w-[200px] h-[200px]  object-cover" alt="two birds standing infront of leaves">
+                <p class=" text-center"> Wildlife at the summit</p>
+            </div>
+        </div>
+    </div>
+    <footer class="h-[450px] bg-gray-100 ">
+        <div class="float-left  mt-[100px] ms-[100px]">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 mt-5">COMMON PAGES</h2>
+            <nav class="list-none mb-10 flex flex-col flex-wrap gap-2">
+                <li>
+                    <a href="./restaurants.html" class="text-gray-600 hover:text-gray-800">Restaurants</a>
+                </li>
+                <li>
+                    <a href="./grocery.html" class="text-gray-600 hover:text-gray-800">Grocery</a>
+                </li>
+                <li>
+                    <a href="./lodging.html" class="text-gray-600 hover:text-gray-800">Lodging</a>
+                </li>
+                <li>
+                    <a href="./entertainment.html" class="text-gray-600 hover:text-gray-800">Entertainment</a>
+                </li>
+            </nav>
+        </div>
+        <div class="float-left  mt-[100px] ms-[100px]">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 mt-5">COMMON PAGES</h2>
+            <nav class="list-none mb-10 flex flex-col gap-2">
+                <li>
+                    <a href="./sightseeing.html" class="text-gray-600 hover:text-gray-800">Sightseeing</a>
+                </li>
+                <li>
+                    <a href="./transportation.html" class="text-gray-600 hover:text-gray-800">Transportation</a>
+                </li>
+            </nav>
+        </div>
+        <div class="clear-both md:clear-none md:float-right md:mt-[150px] md:me-[200px]">
+            <h2 class=" text-center md:mt-0 text-3xl">
+                Taniti
+            </h2>
+        </div>
+        <div class="clear-both"></div>
+        <p class="m-2 text-center mt-5">&copy; 2025 Government of Taniti. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
